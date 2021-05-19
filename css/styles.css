@@ -20,7 +20,6 @@ html {
 }
 
 body {
-  background: gold;
   font-family: Inter, Arial, Helvetica, sans-serif;
   color: var(--color-body);
   font-size: 2.4rem;
@@ -362,7 +361,7 @@ a {
   content: url(../images/popular.svg);
   width: 40px;
   display: inline-block;
-  position:absolute;
+  position: absolute;
   right: 5%;
   top: -6px;
 }
@@ -379,7 +378,26 @@ a {
   .plan__billing-cycle {
     font-size: 1.6rem;
   }
-  
+
   .plan__description {
     font-size: 1.7rem;
   }
+}
+
+/* Media */
+
+.media {
+  display: flex;
+}
+
+.media__title {
+  margin-top: 0;
+}
+
+.media__body {
+  margin: 0 2rem;
+}
+
+.media__image {
+  margin-top: 1rem;
+}
